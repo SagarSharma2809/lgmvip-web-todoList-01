@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container center padding">
+        <h1>My To Do List</h1>
+
+        <form onsubmit="return false" id="myForm">
+            <input type="text" placeholder="Title..." id="userInput" class="padding"><button class="btn padding"
+                type="submit" onclick="func()">Add</button>
+        </form>
+    </div>
+    <div id="newDiv" class="taskList center"></div>
+
+
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

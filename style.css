@@ -1,0 +1,132 @@
+html {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+
+/* .root {
+    display: flex;
+    justify-content: center; */
+
+/* } */
+
+.container {
+    background-color: blueviolet;
+
+
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    width: 30%;
+    margin: auto;
+
+}
+
+.padding {
+    padding: 12px 15px;
+}
+
+
+
+.btn {
+
+    color: darkblue;
+    font-size: 1.05rem;
+    background-color: rgb(168, 214, 255);
+    border: none;
+    outline: none;
+    font-family: Roboto;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#userInput {
+
+    font-family: roboto;
+    outline: none;
+    font-size: 1.05rem;
+    border: none;
+}
+
+
+
+input::placeholder {
+    color: blue;
+}
+
+.task {
+    font-size: 1.25rem;
+}
+
+
+
+.task:nth-of-type(2n+1) {
+    background-color: aliceblue;
+}
+
+.task:nth-of-type(2n) {
+    background-color: rgb(214, 236, 255)
+}
+
+
+
+
+.tick {
+    text-decoration: line-through;
+}
+
+.task .delete-btn {
+    border: none;
+    background-color: transparent;
+    float: right;
+
+}
+
+.task:hover {
+    background-color: rgb(95, 95, 255);
+    color: white;
+
+}
+
+.task:hover>.checked-btn {
+
+    color: white;
+
+}
+
+.task:hover>.delete-btn {
+    color: white;
+}
+
+.delete-btn:hover {
+    cursor: pointer;
+}
+
+.task .checked-btn {
+    border: none;
+    font-size: 1.25rem;
+    color: transparent;
+    background-color: transparent;
+}
+
+.task .delete-btn {
+    font-size: 1.05rem;
+}
+
+.checked-btn:hover {
+
+    cursor: pointer;
+}
